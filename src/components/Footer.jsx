@@ -1,4 +1,5 @@
-function Footer() {
+const tags = ["All", "AI", "Web Development", "LLM", "Deep Learning", "Python", "OpenAI"];
+function Footer(props) {
   return (
     <footer className="w-full bg-black text-white mt-10">
       
@@ -44,14 +45,8 @@ function Footer() {
             </h3>
 
             <div className="flex flex-wrap gap-2">
-              {[
-                "AI",
-                "React",
-                "LLM",
-                "Python",
-                "OpenAI",
-                "Web Dev",
-              ].map((tag) => (
+              {
+                tags.map((tag) => (
                 <span
                   key={tag}
                   className="
@@ -65,7 +60,9 @@ function Footer() {
                     hover:text-black
                     transition
                     cursor-pointer
+                    
                   "
+                   onClick={() => props.tagFilter(tag)}
                 >
                   {tag}
                 </span>

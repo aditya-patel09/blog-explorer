@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import logo from "../assets/png-clipart-leaf-black-leaf-removebg-preview.png";
 // import all data 
 const tags = ["All", "AI", "Web Development", "LLM", "Deep Learning", "Python", "OpenAI"];
 // this array use  for filter tag 
 function Nav(props) {
-  const [open, setOpen] = useState(false);
 
   return ( // dull nav bar code 
     <nav className="w-full bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50">
