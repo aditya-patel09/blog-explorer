@@ -42,7 +42,7 @@ All logic implementation, routing, filtering functionality, and project integrat
 # Setup Instructions
 
 ## 1. Clone the repository
-git clone https://github.com/your-username/blog-explorer.git
+git clone (https://github.com/aditya-patel09/blog-explorer.git)
 
 2. Go to project folder
 cd blog-explorer
