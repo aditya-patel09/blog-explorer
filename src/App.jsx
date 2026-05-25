@@ -21,8 +21,6 @@ function App() { // create function for app component
   function tagFilter(value ) {// tag value catch 
     setTag(value);
   }
-  
-  console.log(tag)
   return (
     <div className="min-h-screen flex flex-col">
                <Nav

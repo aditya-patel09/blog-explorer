@@ -12,7 +12,7 @@ function Home({search,domain, tag}) { // home function
         blog.author.toLowerCase().includes(search.toLowerCase());
 
       const matchDomain =
-      blog.domain.toLowerCase() === domain.toLowerCase(); // if nothing choice in domain then "all" choice
+      domain === "all" || blog.domain === domain; // if nothing choice in domain then "all" choice
 
       const matchTag = // tag match
         tag === "All" ||

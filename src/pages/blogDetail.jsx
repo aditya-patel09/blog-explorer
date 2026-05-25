@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 
 function BlogDetail() {
   const { id } = useParams(); // id store from url 
+  console.log("ID:", id);
   const navigate = useNavigate(); // navigate use render on correct matching path 
   const blog = blogs.find((b) => String(b.id) === String(id)); // find by id 
 
