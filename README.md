@@ -50,4 +50,9 @@ cd blog-explorer
 npm install
 4. Run the project
 npm run dev
+
+
+--Link of vercel:-https://vercel.com/aditya-patel-projects/blog-explorer
+
+
 License:-This project is for educational and assignment purposes only.
