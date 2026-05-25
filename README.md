@@ -39,3 +39,15 @@ AI tools were used to improve:
 - Component structuring
 
 All logic implementation, routing, filtering functionality, and project integration were manually implemented and customized.
+# Setup Instructions
+
+## 1. Clone the repository
+git clone https://github.com/your-username/blog-explorer.git
+
+2. Go to project folder
+cd blog-explorer
+3. Install dependencies
+npm install
+4. Run the project
+npm run dev
+License:-This project is for educational and assignment purposes only.
